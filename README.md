@@ -1,58 +1,61 @@
-# AI-Automation
+# ⚡ Automation Lab
 
-automation built using Make.com.
+A collection of automation workflows built with **n8n**, APIs, AI models, and different productivity tools.
 
-## Workflow
+I'm using this repository to learn by building — starting with simple workflow automations and gradually moving toward **AI-powered workflows and autonomous AI agents**.
 
-Airtable
-   ↓
-Router
-   ↓
-Gmail
-   ↓
-Airtable
-   ↓
-Slack
+The goal isn't just to connect tools, but to understand how real-world tasks can be automated, improved, and eventually made intelligent.
 
-## What it does
+---
 
-The automation monitors Airtable records and processes them through
-different workflow paths.
+## 🚀 Automations
 
-### Email path
-- Reads lead information from Airtable
-- Checks the workflow condition
-- Sends a personalized Gmail message
-- Updates the Airtable record
+| # | Automation | Description | Tech / Tools |
+|---|---|---|---|
+| 01 | 🌤️ Weather Notification | Fetches weather data automatically and sends a notification via email. | n8n · API · JavaScript · Gmail |
+| 02 | 📊 Airtable Automation | Automates data handling and record management using Airtable. | n8n · Airtable |
+| 03 | 🤖 AI Weather Agent | AI agent that understands user requests, uses weather APIs, maintains memory, and sends responses through Gmail. | n8n · Gemini · AI Agent · API · Gmail |
+| 04 | 🔜 More Coming | Continuously experimenting with new automation workflows. | n8n · AI · APIs |
 
-### Notification path
-- Processes information using Text Parser
-- Extracts the required data
-- Sends a notification to Slack
+> Each automation has its own folder with a detailed README, workflow files, screenshots, and setup instructions where applicable.
 
-## What I learned
+---
 
-- Triggers and actions
-- Data mapping
-- Routers and filters
-- Data transformation
-- API integrations
-- Authentication
-- Error handling and debugging
-- Designing end-to-end workflows
+## 🧠 What I'm Exploring
 
-## Tools
+This repository is focused on learning and experimenting with:
 
-- Make.com
-- Airtable
-- Gmail
-- Slack
-- Text Parser
+- ⚙️ Workflow Automation
+- 🤖 AI Agents
+- 🧠 Generative AI
+- 🔗 API Integrations
+- 🗃️ Data Automation
+- 📧 Email Automation
+- 🧩 Tool Calling
+- 💾 AI Memory
+- 💻 JavaScript-based Workflow Logic
+- 🔄 Multi-step Workflows
 
-## Blueprint
+---
 
-The `blueprint/` folder contains the exported Make.com
-scenario blueprint.
+## 🏗️ Repository Structure
 
-To use it, import the JSON into Make.com and configure
-your own application connections.
+```text
+automation-lab/
+│
+├── weather-automation/
+│   ├── workflow.json
+│   ├── screenshots/
+│   └── README.md
+│
+├── airtable-automation/
+│   ├── workflow.json
+│   ├── screenshots/
+│   └── README.md
+│
+├── ai-weather-agent/
+│   ├── workflow.json
+│   ├── screenshots/
+│   └── README.md
+│
+└── README.md
