@@ -13,7 +13,7 @@ The goal isn't just to connect tools, but to understand how real-world tasks can
 | # | Automation | Description | Tech / Tools |
 |---|---|---|---|
 | 01 | 🌤️ Weather Notification | Fetches weather data automatically and sends a notification via email. | n8n · API · JavaScript · Gmail |
-| 02 | 📊 Airtable Automation | Automates data handling and record management using Airtable. | n8n · Airtable |
+| 02 | 📊 Airtable Automation | Automates data handling and record management using Airtable. | make · Airtable |
 | 03 | 🤖 AI Weather Agent | AI agent that understands user requests, uses weather APIs, maintains memory, and sends responses through Gmail. | n8n · Gemini · AI Agent · API · Gmail |
 | 04 | 🔜 More Coming | Continuously experimenting with new automation workflows. | n8n · AI · APIs |
 
